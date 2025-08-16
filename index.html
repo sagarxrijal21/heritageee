@@ -1213,6 +1213,53 @@ section .card:hover {
     <script src="js/roberto.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
+    <!-- Floating Chat Bubble -->
+<div class="chat-widget">
+  <a href="https://api.whatsapp.com/send?phone=%2B9779851265616&context=ARCEXCD9oVi5PxJIGgBPnvLmqnbfq-m-B7LwR1kQWjQzAgjNXsVviHdcbVgqpdbER0VqHD900JPhwszs1h_giH2E_ZMPcLK.5625remsQxX3uKcsrS5B3zbk_FaCEk-1f2jiyBlpTVfNEUWrjJ0-Kx3S34jx3EQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawI5EtxleHRuA2FlbQIxMAABHfu5Vsz6Pib8WronsCejoJoQ8GZmLzCISvc_gAJJC7n74OLw02XY3I7Glw_aem_RDlWPljeHREbI83ZA9CvvQ"" target="_blank" class="chat-bubble">
+
+    के तपाईं मेनु हेर्न चाहनु हुन्छ ? 🤷‍♀️
+  </a>
+</div>
+
+<style>
+/* Floating widget container */
+.chat-widget {
+  position: fixed;
+  bottom: 80px;   /* ⬅️ pushes it higher above the bottom */
+  right: 20px;
+  z-index: 9999;
+  font-family: Arial, sans-serif;
+}
+
+/* Chat bubble style */
+.chat-bubble {
+  display: inline-block;
+  background: #ffffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  font-size: 14px;
+  max-width: 250px;
+  line-height: 1.4;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.chat-bubble:hover {
+  background: #f1f1f1;
+}
+
+/* Responsive (mobile smaller) */
+@media (max-width: 576px) {
+  .chat-bubble {
+    font-size: 12px;
+    max-width: 200px;
+    padding: 8px 12px;
+  }
+}
+</style>
 
     </body>
 
