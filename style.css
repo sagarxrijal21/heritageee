@@ -288,7 +288,7 @@ input:focus {
   z-index: 9999999;
   top: 0;
   left: 0;
-  background-color: #1cc3b2;
+  background-color:#ffa705;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,7 +466,7 @@ input:focus {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: #1cc3b2; }
+  background-color: #c31c1c; }
   .header-area .search-form {
     -webkit-transition-duration: 350ms;
     -o-transition-duration: 350ms;
@@ -511,7 +511,7 @@ input:focus {
   z-index: 1;
   width: 100%;
   height: 50px;
-  background-color: #0e2737; }
+  background-color: #ffffff; }
   .top-header-area .top-header-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -520,7 +520,7 @@ input:focus {
     -ms-flex-align: center;
     align-items: center; }
     .top-header-area .top-header-content > a {
-      color: #ffffff;
+      color: #000000;
       font-size: 14px;
       font-weight: 400;
       line-height: 50px;
@@ -611,7 +611,7 @@ input:focus {
       padding: 0 30px;
       color: #2a303b; }
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
-        color: #1cc3b2; }
+        color: rgb(255, 193, 7); }
 
 .classynav ul li.active a {
   position: relative;
@@ -653,10 +653,10 @@ input:focus {
 .main-header-area {
   position: relative;
   z-index: 1;
-  background-color: #ffffff; }
+  background-color: rgb(255, 193, 7); }
   .main-header-area .book-now-btn a {
     padding: 0 30px;
-    background-color: #1cc3b2;
+    background-color:rgb(255, 193, 7);
     height: 80px;
     line-height: 80px;
     text-align: center;
@@ -708,7 +708,7 @@ input:focus {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #1cc3b2;
+    background-color: #ab0303;
     text-indent: -50000em;
     position: absolute;
     top: 50%;

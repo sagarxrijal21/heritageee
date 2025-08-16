@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banquet Menu - Diamond Menu</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; }
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+}
+header {
+    text-align: center;
+    background: AliceBlue;
+    padding: 15px 10px;
+}
+header img { max-width: 150px; width: 100%; height: auto; }
+.container { display: flex; flex-wrap: wrap; background-color: #111; }
+.menu-section { flex: 1; padding: 20px; max-width: 1200px; margin: auto; }
+.menu-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.menu-column h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+.menu-column h3 {
+    color: #ffa500;
+    margin-top: 15px;
+}
+.menu-column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    color: #ddd;
+    line-height: 1.5;
+}
+.menu-column ul li { margin-bottom: 5px; }
+.menu-column p { color: #ccc; font-size: 0.9rem; }
+
+.spacer {
+    background-color: AliceWhite;
+    height: 14px;
+}
+.download-btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background: #ff6600;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+@media (max-width: 992px) {
+    .menu-columns { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+    .menu-columns { grid-template-columns: 1fr; }
+    .menu-section { padding: 15px; }
+    header img { max-width: 120px; margin: 0 auto; }
+    .download-btn { width: 100%; padding: 12px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+        <img src="img/bg-img/heritagelogo.png" alt="Banquet Logo">
+    </a>
+</header>
+
+<!-- DIAMOND MENU -->
+<section class="menu gold-menu" style="padding: 20px; color: #fff; background-color: #111;">
+    <h2 style="color: gold; text-align: center;">GOLD MENU – 22 ITEMS</h2>
+
+    <h3>APPETIZER (SNACKS)</h3>
+
+    <h4>VEG – CHOOSE ANY THREE</h4>
+    <ul>
+        <li>Mustang Aloo</li>
+        <li>French Fries</li>
+        <li>Chips Chilly</li>
+        <li>Crispy Fried Potato</li>
+        <li>Herbs Potato</li>
+        <li>Cheese Balls</li>
+        <li>Grilled or Crispy Corn</li>
+        <li>Assorted Veg Pakoda / Onion Pakoda</li>
+        <li>Spinach Roll</li>
+        <li>Cheese Paneer Roll / Mushroom Sandheko</li>
+        <li>Paneer Pakoda / Paneer Tikka</li>
+        <li>Mushroom with Kikkoman</li>
+        <li>Mushroom Salt Pepper</li>
+        <li>Veg / Paneer Mo: Mo:</li>
+        <li>Tofu Garlic / Hot Bean</li>
+        <li>Onion Ring</li>
+        <li>Potato Croquettes</li>
+    </ul>
+
+    <h4>NON-VEG – CHOOSE ANY THREE</h4>
+    <ul>
+        <li>Chicken Chilly with Bone / Boneless</li>
+        <li>Chicken Garlic & Kikkoman</li>
+        <li>Chicken Satay Kai</li>
+        <li>Chicken Chhoyala</li>
+        <li>Chicken Sekuwa W/B & W/L</li>
+        <li>Chicken Jaka</li>
+        <li>Chicken Tikka</li>
+        <li>Chicken Rismi Kabab</li>
+        <li>Crispy Crumb Fried Chicken</li>
+        <li>Chicken Larsa-Chi W/O or B/C</li>
+        <li>Small Whole Fried Fish</li>
+        <li>Fish Finger / Crumb Fried Fish</li>
+        <li>Fish Tempura</li>
+        <li>Crustacean Prawn Fried</li>
+        <li>Fish Cake (Tuna Flavour)</li>
+        <li>Mo: Mo: (Chicken / Buff)</li>
+        <li>Buff Chhoyala</li>
+        <li>Buff Chilly</li>
+        <li>Buff Sekuwa</li>
+        <li>Shredded Buff with Bell Pepper</li>
+    </ul>
+
+    <h3>MAIN COURSE</h3>
+
+    <h4>RICE – CHOOSE ANY ONE</h4>
+    <ul>
+        <li>Plain</li>
+        <li>Butter</li>
+        <li>Jeera</li>
+        <li>Masala</li>
+        <li>Saffron</li>
+    </ul>
+
+    <h4>NAAN / PASTA / NOODLES – CHOOSE ANY ONE</h4>
+    <ul>
+        <li>Plain Naan</li>
+        <li>Garlic Naan</li>
+        <li>Butter Naan</li>
+        <li>Palak Naan</li>
+        <li>Kulcha Naan</li>
+        <li>Tandoori Roti</li>
+        <li>Rumali Roti</li>
+        <li>Veg Noodles</li>
+        <li>Thai Noodles Pad</li>
+        <li>Hakka Noodles</li>
+        <li>Napolitana Penne Pasta</li>
+        <li>Arrabiana Penne Pasta</li>
+        <li>Alfredo Penne Pasta</li>
+        <li>Spaghetti</li>
+    </ul>
+
+    <h4>DAAL – CHOOSE ANY ONE</h4>
+    <ul>
+        <li>Daal Fry</li>
+        <li>Daal Tadka</li>
+        <li>Daal Makhani</li>
+        <li>Daal Thakali</li>
+        <li>Rajma</li>
+        <li>Lukla Beans</li>
+        <li>Panchamala</li>
+    </ul>
+
+    <h4>LEAFY GREEN (SAAG) – CHOOSE ANY ONE</h4>
+    <ul>
+        <li>Chef’s Special Seasonal Saag</li>
+        <li>Palak Chamsur Jhaneko</li>
+        <li>Rayo Jhaneko</li>
+        <li>Bok Choy with Tofu & Black Mushroom</li>
+        <li>Palak with Corn</li>
+        <li>Palak with Flat Mushroom</li>
+    </ul>
+
+    <h4>VEGETABLES – CHOOSE ANY TWO</h4>
+    <ul>
+        <li>Mix Veg Indian Style</li>
+        <li>Aloo Gobi</li>
+        <li>Mushroom with Baby Corn</li>
+        <li>Mix Veg Jalfrezi</li>
+        <li>Veg Korma</li>
+        <li>Chef’s Special Seasonal Veg</li>
+        <li>Sautéed Seasonal Veg Manchurian</li>
+        <li>Stir Fried Veg with Garlic</li>
+        <li>Veg Szechuan</li>
+        <li>Matar Paneer</li>
+        <li>Paneer Butter Masala</li>
+        <li>Kadai Paneer</li>
+        <li>Egg Plant with Oyster</li>
+        <li>Tofu and Black Mushroom</li>
+        <li>Tofu Szechuan</li>
+        <li>Parwal Roll</li>
+        <li>Oriental Chinese Veg</li>
+    </ul>
+
+    <h4>NON-VEG – CHOOSE ANY ONE</h4>
+    <ul>
+        <li>Mutton Rogan Josh</li>
+        <li>Mutton Korma</li>
+        <li>Mutton Pakku</li>
+        <li>Mutton Nepali Style</li>
+        <li>Mutton Chinese Style</li>
+        <li>Mutton Curry</li>
+        <li>Chicken Curry</li>
+        <li>Chicken Stew</li>
+        <li>Chicken Kadai</li>
+        <li>Chicken Tawa</li>
+        <li>Chicken Tandoori</li>
+        <li>Chicken Manchurian</li>
+        <li>Chicken Thakali</li>
+    </ul>
+
+    <h3>SALAD BAR – CHOOSE ANY THREE</h3>
+    <ul>
+        <li>Green Salad</li>
+        <li>Papaya Salad</li>
+        <li>Russian Salad</li>
+        <li>Caesar Salad</li>
+        <li>Mexican Salad</li>
+        <li>Tossed Salad</li>
+        <li>Waldorf Salad</li>
+        <li>Sprouted Bean Salad</li>
+        <li>Rajma Salad</li>
+        <li>Channa Chat</li>
+        <li>Pasta Salad</li>
+        <li>Julienne Salad</li>
+        <li>Paneer Salad</li>
+    </ul>
+
+    <h3>DESSERTS – CHOOSE ANY ONE</h3>
+    <ul>
+        <li>Sweet Curd</li>
+        <li>Jeri</li>
+        <li>Lal Mohan</li>
+        <li>Rasbari</li>
+        <li>Halwa (Gajar)</li>
+        <li>Barfi</li>
+    </ul>
+
+    <h3>EXTRA ITEMS</h3>
+    <ul>
+        <li>Fresh Fruit</li>
+        <li>Pani Puri</li>
+        <li>Aloo Tikki</li>
+        <li>Pork</li>
+        <li>Bandel</li>
+        <li>Duck</li>
+    </ul>
+</section>
+
+
+<!-- SPACER -->
+<!-- <div class="spacer"> -->
+<div style="width: 100%; margin: 20px 0;">
+    <hr style="border: none; height: 2px; background-color: AliceBlue; margin: 0; width: 100%;">
+</div>
+
+<!-- </div> -->
+
+
+  <!--2 menu -->
+    
+
+<section class="menu gold-menu" style="padding: 20px; color: #fff; background-color: #111;">
+    <h2 style="color: gold; text-align: center;">GOLD MENU</h2>
+
+    <h3>NON-VEG – Choose Any Two</h3>
+    <ul>
+        <li>Mutton Rogan Josh</li>
+        <li>Mutton Korma</li>
+        <li>Boneless Mutton Pakku</li>
+        <li>Mutton Nepali Style</li>
+        <li>Mutton Chinese Style</li>
+        <li>Mutton Kadai</li>
+        <li>Chicken Curry</li>
+        <li>Chicken Fried</li>
+        <li>Chicken Sesame</li>
+        <li>Chicken Kadai</li>
+        <li>Chicken Tawa</li>
+        <li>Chicken Tandoori</li>
+        <li>Chicken Manchurian</li>
+        <li>Waldorf Salad</li>
+        <li>Chicken Hot Garlic</li>
+        <li>Chicken Szechuan</li>
+        <li>Chicken Shredded</li>
+        <li>Chicken Bell Pepper</li>
+        <li>Chicken Butter Masala</li>
+        <li>Fish Curry (Rohu)</li>
+        <li>Fish Szechuan</li>
+        <li>Fish Garlic</li>
+        <li>Fish Hot Bean</li>
+        <li>Fish Manchurian</li>
+        <li>Fish Fried</li>
+        <li>Fish Sesame</li>
+        <li>Fish Grilled Tawa with Lemon Butter</li>
+    </ul>
+
+    <h3>SALAD BAR – Choose Any Two</h3>
+    <ul>
+        <li>Green Salad</li>
+        <li>Papaya Salad</li>
+        <li>Russian Salad</li>
+        <li>Caesar Salad</li>
+        <li>Greek Salad</li>
+        <li>Mexican Salad</li>
+        <li>Tossed Salad</li>
+        <li>Sweet Corn Salad</li>
+        <li>Beet Root Salad</li>
+        <li>Sprouted Bean Salad</li>
+        <li>Cabbage Salad</li>
+        <li>Channa Chat</li>
+        <li>Potato Salad</li>
+        <li>Julienne Salad</li>
+        <li>Paneer Salad</li>
+        <li>Tomato Salad</li>
+    </ul>
+
+    <h3>PICKLE COUNTER</h3>
+    <h4>Home Made – Choose Any Two</h4>
+    <ul>
+        <li>Thakali Raddish</li>
+        <li>Newari Mix</li>
+        <li>Tomato Tofu & Peas</li>
+        <li>Gundruk Bhatmas</li>
+        <li>Kimchi</li>
+        <li>Seasonal Achar</li>
+    </ul>
+    <h4>Ready Made – Choose Any One</h4>
+    <ul>
+        <li>Mix Pickle</li>
+        <li>Lapsi</li>
+        <li>Sweet Mango</li>
+        <li>Methi</li>
+    </ul>
+
+    <h3>DESSERTS – Choose Any Three</h3>
+    <ul>
+        <li>Sweet Curd</li>
+        <li>Jeeri</li>
+        <li>Lal Mohan</li>
+        <li>Rasbari</li>
+        <li>Halwa (Gajar/Moong)</li>
+        <li>Ice-Cream</li>
+        <li>Black Forest Cake</li>
+        <li>White Forest Cake</li>
+        <li>Swiss Roll</li>
+        <li>Assorted Pastry</li>
+    </ul>
+
+    <h3>EXTRA ITEMS AT ADDITIONAL COST</h3>
+    <ul>
+        <li>Fresh Fruits Counter</li>
+        <li>Pani Puri Counter</li>
+        <li>Aloo Tikki Chat</li>
+        <li>Paan Counter</li>
+        <li><span style="color: yellow; font-weight: bold;">Mutton (BBQ/Tawa/Sekuwa)</span></li>
+        <li>Prawn</li>
+    </ul>
+</section>
+
+
+
+<!-- PDF DOWNLOAD BUTTON -->
+<div style="text-align:center;">
+    <a href="pdf/goldmenu.pdf" download class="download-btn">Download PDF</a>
+</div>
+
+</body>
+</html>

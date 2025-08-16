@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banquet Menu - Diamond Menu</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; }
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+}
+header {
+    text-align: center;
+    background: AliceBlue;
+    padding: 15px 10px;
+}
+header img { max-width: 150px; width: 100%; height: auto; }
+.container { display: flex; flex-wrap: wrap; background-color: #111; }
+.menu-section { flex: 1; padding: 20px; max-width: 1200px; margin: auto; }
+.menu-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.menu-column h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+.menu-column h3 {
+    color: #ffa500;
+    margin-top: 15px;
+}
+.menu-column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    color: #ddd;
+    line-height: 1.5;
+}
+.menu-column ul li { margin-bottom: 5px; }
+.menu-column p { color: #ccc; font-size: 0.9rem; }
+
+.spacer {
+    background-color: AliceWhite;
+    height: 14px;
+}
+.download-btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background: #ff6600;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+@media (max-width: 992px) {
+    .menu-columns { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+    .menu-columns { grid-template-columns: 1fr; }
+    .menu-section { padding: 15px; }
+    header img { max-width: 120px; margin: 0 auto; }
+    .download-btn { width: 100%; padding: 12px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+        <img src="img/bg-img/heritagelogo.png" alt="Banquet Logo">
+    </a>
+</header>
+
+<!-- DIAMOND MENU -->
+<section class="menu-section">
+  <h2>BREAKFAST MENU</h2>
+
+  <h3>OPTION 1 (250/- PP)</h3>
+  <ul>
+    <li>Tea/Coffee</li>
+    <li>Cookies</li>
+  </ul>
+
+  <h3>OPTION 2 (750/- PP)</h3>
+  <ul>
+    <li>Tea/Coffee</li>
+    <li>Sandwich</li>
+    <li>French Fries / Hash Brown</li>
+    <li>Scrambled Egg</li>
+    <li>Grilled Sausage</li>
+  </ul>
+
+  <h3>OPTION 3 (750/- PP)</h3>
+  <ul>
+    <li>Tea/Coffee</li>
+    <li>Bhatura</li>
+    <li>Chhola</li>
+    <li>Boiled Egg</li>
+  </ul>
+
+  <h3>OPTION 4 (750/- PP)</h3>
+  <ul>
+    <li>Tea/Coffee</li>
+    <li>Puri</li>
+    <li>Mix Veg Curry</li>
+    <li>Jeri</li>
+    <li>Boiled Egg</li>
+  </ul>
+
+  <h3>THAKALI KHANA SET (1000/- PP or 1200/- PP)</h3>
+  <ul>
+    <li>Plain Rice</li>
+    <li>Thakali Daal</li>
+    <li>Mix Veg Curry</li>
+    <li>Chicken OR Mutton Curry</li>
+    <li>Aloo Bhujia</li>
+    <li>Tomato Pineko Achar</li>
+    <li>Gundruk Bhatmas</li>
+    <li>Papad</li>
+    <li>Salad</li>
+    <li>Dessert (Dahi & Lalmohan)</li>
+  </ul>
+
+  <h3>SOUP (served in winter only, choose any one)</h3>
+  <ul>
+    <li>Cream of Mushroom</li>
+    <li>Cream of Spinach</li>
+    <li>Cream of Mix Vegetable</li>
+    <li>Cream of Chicken</li>
+    <li>Tom Yum (Veg/Non-Veg)</li>
+    <li>Hot and Sour</li>
+    <li>Veg Chinese Style</li>
+    <li>Kwati Newari Style Wonton Soup</li>
+  </ul>
+
+  <h3>MONGOLIAN BBQ (750/- PP)</h3>
+  <p>Live noodles fried with different varieties of vegetables, condiments, and Chicken/Buff/Pork along with assorted oriental sauces.</p>
+
+  <h3>NEWARI SAMAYA-BAJI SET (750/- PP)</h3>
+  <p>Chiura, Chhoyala, Bhatmas Sandheko, Aloo Sandheko, Saag, Half Boiled Egg, Local Fried Fish, Ginger and Garlic.</p>
+
+  <h3>NEWARI SNACKS (750/- PP)</h3>
+  <p>Fokso Fry, Chatamari, Bhatmas Sandheko, Aloo Kabab, Bara/Wo, Local Fried Fish, Chhoyala (Buff/Chicken).</p>
+
+  <h3>NEWARI THEME BHOAY SET</h3>
+  <ul>
+    <li>Rate Rs. 1500/- per person (Above 300 Pax)</li>
+    <li>Rate Rs. 1800/- per person (Below 300 Pax)</li>
+  </ul>
+
+  <h3>HALL CHARGES</h3>
+  <ul>
+    <li>Whole Venue: Rs. 2,50,000/- per day</li>
+    <li>Single Hall: Rs. 1,50,000/- per day</li>
+    <li>Hourly Charge: Rs. 20,000/- per hour</li>
+  </ul>
+
+  <h3>HALL CAPACITY</h3>
+  <ul>
+    <li>Whole Venue: 1000+</li>
+    <li>Hall Nyatapola: 500+</li>
+    <li>Hall Dattatreya: 300+</li>
+  </ul>
+
+  <h3>PARKING CAPACITY</h3>
+  <ul>
+    <li>Four Wheelers: 100+</li>
+    <li>Two Wheelers: 100+</li>
+  </ul>
+
+  <h3>EXTRA CHARGES APPLY FOR</h3>
+  <ul>
+    <li>DJ and Music: Rs. 15,000/- per day</li>
+    <li>Photography and Video: Rs. 35,000/- per day</li>
+    <li>Flower Decoration and Props: Starting Rs. 20,000/-</li>
+    <li>Live Music and DJ: Rs. 60,000/-</li>
+    <li>Special Cooking, Equipment & Labour Charge: Minimum Rs. 20,000/-</li>
+  </ul>
+</section>
+
+
+
+<!-- PDF DOWNLOAD BUTTON -->
+<div style="text-align:center;">
+    <a href="pdf/breakfast.pdf" download class="download-btn">Download PDF</a>
+</div>
+
+</body>
+</html>

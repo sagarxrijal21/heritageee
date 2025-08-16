@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banquet Menu - Silver Menu</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+    * { box-sizing: border-box; }
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        background-color: #111;
+        color: #fff;
+    }
+    header {
+        text-align: center;
+        background: AliceBlue;
+        padding: 15px 10px;
+    }
+    header img { max-width: 150px; width: 100%; height: auto; }
+    .container { display: flex; flex-wrap: wrap; background-color: #111; }
+    .image-section { flex: 1; min-width: 50%; }
+    .image-section img { width: 100%; height: auto; display: block; }
+    .menu-section { flex: 1; min-width: 50%; padding: 20px; }
+    .menu-section h3 {
+        font-weight: 700;
+        color: #fff;
+        margin-top: 25px;
+        margin-bottom: 12px;
+        font-size: 1.3rem;
+        border-bottom: 1px solid #444;
+        padding-bottom: 5px;
+    }
+    .menu-section ul { list-style-type: disc; padding-left: 20px; margin-bottom: 15px; color: #ddd; line-height: 1.5; }
+    .menu-section ul li { margin-bottom: 5px; }
+    .download-btn {
+        display: inline-block;
+        margin: 20px auto;
+        padding: 12px 25px;
+        background: #ff6600;
+        color: #fff;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+    }
+    @media (max-width: 768px) {
+        .container { flex-direction: column; }
+        .image-section { display: none; }
+        .menu-section { min-width: 100%; padding: 15px; }
+        .menu-section h3 { font-size: 1.1rem; }
+        .menu-section ul { font-size: 0.95rem; padding-left: 15px; }
+        header img { max-width: 120px; margin: 0 auto; }
+        .download-btn { width: 100%; padding: 12px; }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+        <img src="img/bg-img/heritagelogo.png" alt="Banquet Logo">
+    </a>
+</header>
+
+<div class="container">
+    <div class="image-section">
+        <img src="" alt="">
+    </div>
+
+    <div class="menu-section">
+
+        <h3>SILVER MENU – 18 ITEMS</h3>
+
+        <h4>APPETIZERS (SNACKS) – VEG (CHOOSE ANY FIVE)</h4>
+        <ul>
+            <li>Mustang Aloo French Fries</li>
+            <li>Chips Chilly</li>
+            <li>Assorted Veg Pakoda</li>
+            <li>Spinach Roll</li>
+            <li>Flat Mushroom Sandheko Tofu Chilly / Garlic</li>
+            <li>Peanut Masala</li>
+            <li>Prawn Cracker</li>
+            <li>Veg Tempura</li>
+        </ul>
+
+        <h4>APPETIZERS (SNACKS) – NON-VEG (CHOOSE ANY TWO)</h4>
+        <ul>
+            <li>Chicken Chilly</li>
+            <li>Chicken Timmur</li>
+            <li>Chicken Choyola</li>
+            <li>Chicken Wonton / Mo: Mo:</li>
+            <li>Fish Tempura</li>
+            <li>Whole Fish Fried</li>
+            <li>Peanut Fish Fried</li>
+            <li>Buff Choyola</li>
+            <li>Buff Chilly</li>
+            <li>Buff Sekuwa</li>
+        </ul>
+
+        <h4>MAIN COURSE – RICE (CHOOSE ANY ONE)</h4>
+        <ul>
+            <li>Plain</li>
+            <li>Jeera</li>
+            <li>Pea & Carrot</li>
+        </ul>
+
+        <h4>DAAL (CHOOSE ANY ONE)</h4>
+        <ul>
+            <li>Daal Fry</li>
+            <li>Daal Tadka</li>
+            <li>Daal Thakali</li>
+            <li>Daal Mix</li>
+            <li>Daal Makhani</li>
+        </ul>
+
+        <h4>NAAN (CHOOSE ANY ONE)</h4>
+        <ul>
+            <li>Plain Naan</li>
+            <li>Garlic Naan</li>
+            <li>Butter Naan</li>
+            <li>Tandoori Roti</li>
+        </ul>
+
+        <h4>GREEN VEG – CHOOSE ANY ONE</h4>
+        <ul>
+            <li>Chef’s Special Seasonal Saag</li>
+            <li>Palak Chamsur Jhaneko</li>
+            <li>Bok Choy with Ginger and Garlic</li>
+        </ul>
+
+        <h4>VEG – CHOOSE ANY ONE</h4>
+        <ul>
+            <li>Mix Veg</li>
+            <li>Gobi & Matar</li>
+            <li>Seasonal Veg</li>
+            <li>Chinese Style Mix Veg</li>
+            <li>Paneer Butter Masala</li>
+        </ul>
+
+        <h4>NON-VEG – CHOOSE ANY TWO</h4>
+        <ul>
+            <li>Chicken Curry Nepali Style</li>
+            <li>Chicken Butter Masala</li>
+            <li>Chicken Fried</li>
+            <li>Chicken Tawa</li>
+            <li>Fish Fry</li>
+            <li>Fish Curry</li>
+            <li>Fish Szechuan</li>
+            <li>Fish Tawa</li>
+            <li>Mutton Nepali Style</li>
+        </ul>
+
+        <h4>SALAD BAR</h4>
+        <ul>
+            <li>Green Assorted Salad</li>
+            <li>Chef’s Special Salad</li>
+        </ul>
+
+        <h4>PICKLE COUNTER – CHOOSE ANY TWO</h4>
+        <ul>
+            <li>Newari</li>
+            <li>Tomato with Tofu</li>
+            <li>Gundruk & Bhatmas</li>
+            <li>Chef’s Special Readymade Pickle</li>
+        </ul>
+
+        <h4>DESSERT – CHOOSE ANY TWO</h4>
+        <ul>
+            <li>Juju Dhau</li>
+            <li>Jeri</li>
+            <li>Lalmohan</li>
+            <li>Rasbari</li>
+            <li>Ice-Cream</li>
+            <li>Swiss Roll</li>
+        </ul>
+
+        <h4>EXTRA ITEMS AT ADDITIONAL COST</h4>
+        <ul>
+            <li>Fresh Fruits Counter</li>
+            <li>Prawn</li>
+            <li>Pani Puri Counter</li>
+            <li>Buff</li>
+            <li>Aloo Tikki Chat</li>
+            <li>Cheese, Cherry, Pineapple in Stick</li>
+            <li>Paan Counter</li>
+            <li>Duck</li>
+            <li>Mutton (Curry/BBQ/Tawa/Sekuwa)</li>
+        </ul>
+
+        <a href="pdf/silver.pdf" download class="download-btn">Download PDF</a>`
+
+    </div>
+</div>
+
+</body>
+</html>
