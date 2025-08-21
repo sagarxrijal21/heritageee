@@ -288,7 +288,7 @@ input:focus {
   z-index: 9999999;
   top: 0;
   left: 0;
-  background-color:#ffa705;
+  background-color: #faf8c7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -611,7 +611,7 @@ input:focus {
       padding: 0 30px;
       color: #2a303b; }
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
-        color: rgb(255, 193, 7); }
+        color: red; }
 
 .classynav ul li.active a {
   position: relative;
@@ -653,10 +653,10 @@ input:focus {
 .main-header-area {
   position: relative;
   z-index: 1;
-  background-color: rgb(255, 193, 7); }
+  background-color: #faf8c7; }
   .main-header-area .book-now-btn a {
     padding: 0 30px;
-    background-color:rgb(255, 193, 7);
+    background-color: #faf8c7;
     height: 80px;
     line-height: 80px;
     text-align: center;
@@ -779,14 +779,14 @@ input:focus {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #0e2737; }
+  background-color: #faf8c7; }
 
 .single-footer-widget {
   position: relative;
   z-index: 1; }
   .single-footer-widget .widget-title {
     font-size: 22px;
-    color: #ffffff;
+    color: black;
     margin-bottom: 25px;
     display: block;
     text-transform: capitalize; }
@@ -806,22 +806,22 @@ input:focus {
       font-size: 16px;
       display: block;
       margin-bottom: 5px;
-      color: #ffffff;
+      color: black;
       font-weight: 400; }
       .single-footer-widget .latest-blog-area .post-title:focus, .single-footer-widget .latest-blog-area .post-title:hover {
-        color: #1cc3b2; }
+        color: black; }
   .single-footer-widget .footer-nav {
     position: relative;
     z-index: 1; }
     .single-footer-widget .footer-nav li a {
       display: block;
       margin-bottom: 10px;
-      color: #636a76;
+      color: black;
       font-size: 14px;
       font-weight: 400;
       text-transform: capitalize; }
       .single-footer-widget .footer-nav li a:focus, .single-footer-widget .footer-nav li a:hover {
-        color: #ffffff; }
+        color: black; }
     .single-footer-widget .footer-nav li:last-child a {
       margin-bottom: 0; }
   .single-footer-widget .nl-form {
@@ -831,11 +831,11 @@ input:focus {
     .single-footer-widget .nl-form input {
       width: 100%;
       height: 46px;
-      background-color: #3e525f;
+      background-color: ;
       border-radius: 30px;
       border: none;
       padding: 0 20px;
-      color: #ffffff;
+      color: black;
       font-size: 14px; }
       .single-footer-widget .nl-form input:focus {
         box-shadow: none; }
@@ -847,7 +847,7 @@ input:focus {
       border: none;
       top: 3px;
       right: 3px;
-      color: #ffffff;
+      color: black;
       background-color: #1cc3b2;
       cursor: pointer;
       -webkit-transition-duration: 500ms;
@@ -859,11 +859,11 @@ input:focus {
     display: block;
     margin-bottom: 20px; }
   .single-footer-widget p {
-    color: #afb4bf; }
+    color: black; }
   .single-footer-widget h4 {
     color: #1cc3b2; }
   .single-footer-widget span {
-    color: #afb4bf;
+    color: black;
     font-size: 14px;
     display: block;
     margin-bottom: 10px; }
@@ -879,13 +879,13 @@ input:focus {
       text-align: center; } }
   .copywrite-text p {
     font-size: 14px;
-    color: #afb4bf;
+    color: black;
     margin-bottom: 0; }
     @media only screen and (max-width: 767px) {
       .copywrite-text p {
         font-size: 12px; } }
     .copywrite-text p a {
-      color: #afb4bf;
+      color: black;
       font-size: 14px; }
       @media only screen and (max-width: 767px) {
         .copywrite-text p a {

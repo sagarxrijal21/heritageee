@@ -152,12 +152,13 @@
       $('#termsModal').modal('hide');
     });
 
-    // No button click - go back to previous page
+    // No button click - just close modal (but don't save acceptance)
     $('#btnNo').click(function() {
-      window.history.back();
+      $('#termsModal').modal('hide');
     });
   });
 </script>
+
 
 </body>
 </html>
@@ -317,8 +318,8 @@
                             <!-- Welcome Text -->
                             <div class="col-12">
                                 <div class="welcome-text text-center">
-                                    <h6 data-animation="fadeInUp" data-delay="200ms">Hotel &amp; Logde</h6>
-                                    <h2 data-animation="fadeInUp" data-delay="500ms">Perfect For Any Events</h2>
+                                    <h6 data-animation="fadeInUp" data-delay="200ms">Welcome To</h6>
+                                    <h2 data-animation="fadeInUp" data-delay="500ms">Heritage Party Palace</h2>
                                     <a href="#" class="btn roberto-btn btn-2" data-animation="fadeInUp" data-delay="800ms">Discover Now</a>
                                 </div>
                             </div>
@@ -420,7 +421,7 @@
   height: 10vh;
   margin: 0;
   /* background: #FFD700; */
-  color: #000; /* black text for contrast */
+  color: #eee70d; /* black text for contrast */
 ">
   We are the <br> No 1  <br>
    Party Palace in Bhaktapur
@@ -741,7 +742,7 @@ section .card:hover {
     </section>
     <!-- Blog Area End -->
     <!-- <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25574902' frameborder='0' width='100%' height='1000'></iframe> -->
-    <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25588873' frameborder='0' width='100%' height='1000'></iframe>
+    <!-- <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25588873' frameborder='0' width='100%' height='1000'></iframe> -->
     <!-- Call To Action Area Start -->
     <!-- <section class="roberto-cta-area">
         <div class="container">
@@ -760,6 +761,14 @@ section .card:hover {
             </div>
         </div>
     </section> -->
+    <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-bc8957ae-246d-4cf3-b950-fd0223bd133a" data-elfsight-app-lazy></div>
+
+
+
+
+
 
   <style>
     /* ==== Contact Form Styles ==== */
@@ -1127,8 +1136,17 @@ section .card:hover {
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-80">
                             <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="./img/bg-img/heritagelogo.png" alt="" width="4.375rem"></a>
-
+<a class="nav-brand" href="index.html">
+  <img src="./img/bg-img/heritagelogo.png" alt="Heritage Logo" class="logo">
+</a> 
+<style>
+    .logo {
+  width: 180px;      /* Adjust size */
+  height: auto;      /* Keeps aspect ratio */
+  max-width: 100%;   /* Prevents overflow */
+  display: block;
+}
+</style>
                             <a href="tel:9851265616"><i class="icon_phone" style="color: aliceblue;"></i> <span>9851265616</span></a>
                             <span>heritagelodge@gmail.com</span>
                             <span>Radhe Radhe Bus Stand, Araniko Highway, Madhyapur Thimi</span>
